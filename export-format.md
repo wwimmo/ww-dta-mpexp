@@ -1,8 +1,8 @@
 # Export Format
 
-Filename: indidually configurable
-Format: CSV
-Delimiter: ;
+Filename: indidually configurable<br>
+Format: CSV<br>
+Delimiter: ;<br>
 
 Some columns might not be provided depending on "export type" defined in ERP system
 
