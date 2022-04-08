@@ -33,6 +33,6 @@ For further questions customer should contact w&w directly.
 
 ## export types
 
-1 - with registration codes but without explicit user data
-2 - with user data in combined fields
-3 - with user data in seperate fields
+1 - with registration codes but without explicit user data<br>
+2 - with user data in combined fields<br>
+3 - with user data in seperate fields<br>
