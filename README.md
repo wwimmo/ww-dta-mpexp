@@ -31,7 +31,7 @@ For further questions customer should contact w&w directly.
 
 [example-file](/dta-mpexp.csv)
 
-## export types
+## Export Types
 
 1 - with registration codes but without explicit user data<br>
 2 - with user data in combined fields<br>

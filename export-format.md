@@ -9,21 +9,22 @@ Some columns might not be provided depending on "export type" defined in ERP sys
 | column                   | m   | id  | example                                       | remarks                                                             |
 | ------------------------ | --- | --- | --------------------------------------------- | ------------------------------------------------------------------- |
 | customer_id              | x   | x   | X0135816FZHK                                  | unique customer identifier                                          |
-| property_id              | x   | x   | 10001                                         |
-| property_name            | x   |     | Löwenstrasse 1-7                              |
-| group_id                 | x   | x   | 1                                             |
-| group_name               | x   |     | Löwenstrasse 1                                |
-| unit_adress_street_name  |     |     | Löwenstrasse 1                                |
-| unit_adress_postcode     |     |     | 8910                                          |
-| unit_adress_city         |     |     | Affoltern am Albis                            |
+| property_id              | x   | x   | 10001                                         |                                                                     |
+| property_name            | x   |     | Löwenstrasse 1-7                              |                                                                     |
+| group_id                 | x   | x   | 1                                             |                                                                     |
+| group_name               | x   |     | Löwenstrasse 1                                |                                                                     |
+| unit_adress_street_name  |     |     | Löwenstrasse 1                                |                                                                     |
+| unit_adress_postcode     |     |     | 8910                                          |                                                                     |
+| unit_adress_city         |     |     | Affoltern am Albis                            |                                                                     |
 | unit_adress_country      |     |     | 756                                           | country code numeric: https://www.iso.org/obp/ui/#search            |
-| unit_id                  | x   | x   | 11101                                         |
-| unit_name                |     |     | 3.5 Zimmerwohnung 1. OG links                 |
-| unit_type                |     |     | Wohnung                                       |
+| unit_id                  | x   | x   | 11101                                         |                                                                     |
+| unit_name                |     |     | 3.5 Zimmerwohnung 1. OG links                 |                                                                     |
+| unit_type                |     |     | Wohnung                                       |                                                                     |
 | unit_square_meter        |     |     | 80                                            | area in m2                                                          |
+| unit_value_quota         |     |     | 165                                           | exporttye 3 value quota (Wertquote) only for condominium            |
 | unit_level               |     |     | 1                                             | 0-EG,1-1.St,2-2.St,3-3.St,…,99-Dach,-1-1.UG,-2-2.UG,-3-3.UG,...     |
-| utilisation_period_start | x   | x   | lease start                                   |
-| utilisation_period_end   |     |     | lease end                                     |
+| utilisation_period_start | x   | x   | 01.03.2000                                    | lease start                                                         |
+| utilisation_period_end   |     |     |                                               | lease end (tenancies with lease end in the past are not inclueded)  |
 | contract_type            | x   |     | 1                                             | 1 = tenancy, 2 = condominum ownership                               |
 | user1_id                 |     |     | 560                                           | **unique person id for user 1**                                     |
 | user1_name               |     |     | Hans Muster                                   | exporttypes 1/2: name & prename or companyname, exporttype 3 = name |
