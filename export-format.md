@@ -9,6 +9,7 @@ Some columns might not be provided depending on "export type" defined in ERP sys
 | column                   | m   | id  | example                                       | remarks                                                             |
 | ------------------------ | --- | --- | --------------------------------------------- | ------------------------------------------------------------------- |
 | customer_id              | x   | x   | X0135816FZHK                                  | unique customer identifier                                          |
+| tenancyid                |     | x   | 051f4846-d5eb-4b59-abba-0cb73aa54214          | unique tenancy identifier                                           |
 | property_id              | x   | x   | 10001                                         |                                                                     |
 | property_name            | x   |     | Löwenstrasse 1-7                              |                                                                     |
 | group_id                 | x   | x   | 1                                             |                                                                     |
