@@ -36,3 +36,10 @@ For further questions customer should contact w&w directly.
 1 - with registration codes but without explicit user data<br>
 2 - with user data in combined fields<br>
 3 - with user data in seperate fields<br>
+
+## Registration Code
+
+With export type 1 each user entry gets a registration code (unique per customer and user).
+The registration code has to be secure enough, so it's not possible for anyone to derive a code from a different user.
+
+e.g. user registration code as uuid: 12a48666-651b-4809-87b9-535f5d40d9e5
