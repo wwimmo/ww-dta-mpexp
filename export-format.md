@@ -87,6 +87,10 @@ Some columns might not be provided depending on "export type" defined in ERP sys
 | facility_manager_email   |     |     | maria.rito@facility.ch                        |                                                                     |
 | facility_manager_phone1  |     |     |                                               |                                                                     |
 | facility_manager_phone2  |     |     |                                               |                                                                     |
+| owner_name               |     |     | Marc Weber                                    | name & prename                                                      |
+| owner_email              |     |     | marc.weber@owner.ch                           |                                                                     |
+| owner_phone1             |     |     |                                               |                                                                     |
+| owner_phone2             |     |     |                                               |                                                                     |
 | timestamp_export         |     |     | 18.03.2022                                    | export date                                                         |
 | registration_code1       |     |     |                                               | exporttype 1: code could be used to sign up user 1                  |
 | registration_code2       |     |     |                                               | exporttype 1: code could be used to sign up user 2                  |
