@@ -83,12 +83,17 @@ Some columns might not be provided depending on "export type" defined in ERP sys
 | property_manager2_email  |     |     |                                               |                                                                     |
 | property_manager2_phone1 |     |     |                                               |                                                                     |
 | property_manager2_phone2 |     |     |                                               |                                                                     |
+| facility_manager_name    |     |     | 983                                           | **unique id for facility manager**                                  |
 | facility_manager_name    |     |     | Maria Rito                                    | name & prename                                                      |
 | facility_manager_email   |     |     | maria.rito@facility.ch                        |                                                                     |
 | facility_manager_phone1  |     |     |                                               |                                                                     |
 | facility_manager_phone2  |     |     |                                               |                                                                     |
+| owner_id                 |     |     | 87656                                         | **unique id for owner**                                             |
 | owner_name               |     |     | Marc Weber                                    | name & prename                                                      |
 | owner_email              |     |     | marc.weber@owner.ch                           |                                                                     |
+| owner_adress_street_name |     |     | Busstrasse 1                                  |                                                                     |
+| owner_adress_postcode    |     |     | 8910                                          |                                                                     |
+| owner_adress_city        |     |     | Affoltern am Albis                            |                                                                     |
 | owner_phone1             |     |     |                                               |                                                                     |
 | owner_phone2             |     |     |                                               |                                                                     |
 | timestamp_export         |     |     | 18.03.2022                                    | export date                                                         |
