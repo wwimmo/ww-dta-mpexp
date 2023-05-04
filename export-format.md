@@ -83,6 +83,7 @@ Some columns might not be provided depending on "export type" defined in ERP sys
 | property_manager2_email  |     |     |                                               |
 | property_manager2_phone1 |     |     |                                               |
 | property_manager2_phone2 |     |     |                                               |
+| facility_manager_id      |     |     | 983                                           | **unique id for facility manager**                                  |
 | facility_manager_name    |     |     | Maria Rito                                    | name & prename                                                      |
 | facility_manager_email   |     |     | maria.rito@facility.ch                        |
 | facility_manager_phone1  |     |     |                                               |
