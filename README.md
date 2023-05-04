@@ -12,6 +12,7 @@ The data is deliverd in a flat structured CSV-file.
 - tenant/condominium owner
 - property manager
 - facility manager
+- owner
 - registration code
 
 ## Export & Data Transfer

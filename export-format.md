@@ -76,17 +76,26 @@ Some columns might not be provided depending on "export type" defined in ERP sys
 | user4_adress_city        |     |     | Affoltern am Albis                            | exporttype 3                                                        |
 | user4_adress_country     |     |     | 756                                           | country code numeric: https://www.iso.org/obp/ui/#search            |
 | property_manager1_name   |     |     | Hans Property                                 | name & prename                                                      |
-| property_manager1_email  |     |     | hp@immo.ch                                    |
-| property_manager1_phone1 |     |     | 098 765 43 21                                 |
-| property_manager1_phone2 |     |     |                                               |
+| property_manager1_email  |     |     | hp@immo.ch                                    |                                                                     |
+| property_manager1_phone1 |     |     | 098 765 43 21                                 |                                                                     |
+| property_manager1_phone2 |     |     |                                               |                                                                     |
 | property_manager2_name   |     |     |                                               | name & prename                                                      |
-| property_manager2_email  |     |     |                                               |
-| property_manager2_phone1 |     |     |                                               |
-| property_manager2_phone2 |     |     |                                               |
+| property_manager2_email  |     |     |                                               |                                                                     |
+| property_manager2_phone1 |     |     |                                               |                                                                     |
+| property_manager2_phone2 |     |     |                                               |                                                                     |
+| facility_manager_id      |     |     | 983                                           | **unique id for facility manager**                                  |
 | facility_manager_name    |     |     | Maria Rito                                    | name & prename                                                      |
-| facility_manager_email   |     |     | maria.rito@facility.ch                        |
-| facility_manager_phone1  |     |     |                                               |
-| facility_manager_phone2  |     |     |                                               |
+| facility_manager_email   |     |     | maria.rito@facility.ch                        |                                                                     |
+| facility_manager_phone1  |     |     |                                               |                                                                     |
+| facility_manager_phone2  |     |     |                                               |                                                                     |
+| owner_id                 |     |     | 87656                                         | **unique id for owner**                                             |
+| owner_name               |     |     | Marc Weber                                    | name & prename                                                      |
+| owner_email              |     |     | marc.weber@owner.ch                           |                                                                     |
+| owner_adress_street_name |     |     | Busstrasse 1                                  |                                                                     |
+| owner_adress_postcode    |     |     | 8910                                          |                                                                     |
+| owner_adress_city        |     |     | Affoltern am Albis                            |                                                                     |
+| owner_phone1             |     |     |                                               |                                                                     |
+| owner_phone2             |     |     |                                               |                                                                     |
 | timestamp_export         |     |     | 18.03.2022                                    | export date                                                         |
 | registration_code1       |     |     |                                               | exporttype 1: code could be used to sign up user 1                  |
 | registration_code2       |     |     |                                               | exporttype 1: code could be used to sign up user 2                  |
